@@ -1,0 +1,19 @@
+{
+    "name": "craft/skeleton",
+    "description": "The skeleton of Craft framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Craft\\": "src/"
+        },
+        "files": [
+            "src/application/helper/helper.php",
+            "src/kit/dump/var_dump.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "datahihi1/tiny-env": "^1.0.9"
+    }
+}
